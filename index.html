@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>noobys ping pong calculator</title>
+    <link rel="stylesheet" href="./imbadat.css">
+</head>
+<body>
+    <center>
+        <p id="teamname"><b>team 1</b></p>
+        <p id="team1score">team 1's score</p> <br>
+        <button id="addscoretoteam1" onclick="addteam1score()">add score to team 1</button>
+        <p id="teamname"><b>team 2</b></p>
+        <p id="team2score">team 2's score</p> <br>
+        <button id="addscoretoteam2" onclick="addteam2score()">add score to team 2</button>
+        <p id="eventiguess"></p>
+        <h2>settings</h2>
+        <input type="number" id="serveswitch" placeholder="switch who serves every X points">
+        <p>this setting will change how much rounds until you need to switch who serves. for example: team 1 serves until their score and team 2's score together are divisible by 5, then they switch who serves. the default setting is 5.</p>
+        <input type="number" id="endonscore" placeholder="score limit">
+        <p>this setting will change what the score limit is. the default setting is 11.</p>
+        <input type="checkbox" id="enabledeuce" onchange="enabledeuce()">
+        <label for="enabledeuce">enable deuce</label>
+    </center>
+    <script src="main.js" ></script>
+</body>
+</html>

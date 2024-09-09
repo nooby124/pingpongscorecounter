@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Comic Sans MS, sans-serif;
+}
+#teamname {
+    font-size: 25px;
+}
+#team1score {
+    font-size: 20px;
+}
+#team2score {
+    font-size: 20px;
+}
